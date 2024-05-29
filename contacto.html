@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <section id="arriba">
+      <title>Contacto - Elephants Fitness Club</title>
+    </section>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1 class="animate__animated animate__slideInLeft">
+        <strong><em> ELEPHANTS FITNESS CLUB</em></strong>
+      </h1>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li>
+          <br />
+          <b><a href="index.html">Entrenamientos Personalizados </a></b>
+        </li>
+        <li>
+          <b> <a href="#seccion2">Galería</a></b>
+        </li>
+        <li>
+          <b> <a href="#seccion3">Video</a></b>
+        </li>
+        <li>
+          <b> <a href="contacto.html">Contacto</a></b>
+          <!-- Nuevo enlace de contacto -->
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="formulario-seccion">
+      <div class="columna left">
+        <h2 class="contacto bold-italic"><em>CONTACTO</em></h2>
+        <form
+          action="https://formspree.io/f/xoqgbpwp"
+          method="POST"
+          class="formulario"
+        >
+          <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required />
+          </p>
+          <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" required />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+          </p>
+          <p>
+            <label for="telefono">Teléfono</label>
+            <input type="number" name="telefono" />
+          </p>
+          <p>
+            <label for="comentario">Comentario</label>
+            <textarea id="comentario" name="comentario"></textarea>
+          </p>
+          <p class="acciones"><input type="submit" value="Enviar" /></p>
+        </form>
+        <script
+          src="https://formspree.io/js/formbutton-v1.min.js"
+          defer
+        ></script>
+      </div>
+    </div>
+    </main>
+    <div class="ir_arriba"><a href="#arriba"> Ir arriba</a></div>
+    <footer class="pie">
+      <p>Pie de Página - &copy; Lautaro Vera 2024</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background: url('./img/photo-1558611848-73f7eb4001a1.jpg') no-repeat center center fixed; /* Ruta de la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  overflow: auto;
+}
+
+header.encabezado {
+  background: #000000e5;
+  color: #4f297a;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.ir_arriba {
+  background-color: rgba(131, 131, 131, 0.7);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+}
+
+a {
+  color: #fff;
+}
+
+.menu {
+  background-color: #adadad46;
+  padding: 1em;
+  text-align: center;
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+  animation-name: aparecer;
+  animation-duration: 4s;
+}
+
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.h2{
+    text-align: center;
+}
+
+.seccion {
+  margin-bottom: 20px;
+  background-color: #fcfcfcd5;
+  box-shadow: 0 0 10px rgba(255, 254, 254, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.imagen,
+.video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pie {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+iframe {
+  border: none;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .contacto h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    
+  }
+
+  .bold-italic {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .formulario {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .formulario-seccion {
+    background-color: rgba(78, 36, 114, 0);
+    color: #000000;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .formulario label {
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+  
+  .formulario input, .formulario textarea {
+    background-color: #f9f9f9;
+    padding: 0.4em 0.6em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #999;
+    font-size: 0.8em;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .formulario input[type="submit"] {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+    color: black;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .formulario textarea {
+    height: 10em;
+    resize: both;
+  }
+  
+  .formulario .acciones {
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 350px; /* Ajustar el tamaño según sea necesario */
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  @media (max-width: 420px) {
+    body {
+      background-color: rgba(78, 36, 114, 0.13);
+     
+    }
+  
+    .nav ul {
+      flex-direction: column; /* Coloca los elementos del menú en una columna */
+      align-items: center;
+    }
+  
+    .nav ul li {
+      margin: 10px 0; /* Ajusta el margen para los elementos del menú */
+    }
+  
+    .nav ul li a {
+      padding: 10px 20px; /* Ajusta el padding para los botones */
+      font-size: 16px; /* Ajusta el tamaño de la fuente para los botones */
+    }
+  
+    .formulario-seccion {
+      padding: 10px; /* Reduce el padding para la sección del formulario */
+    }
+  
+    .formulario label {
+      width: 100%; /* Asegúrate de que los labels ocupen todo el ancho */
+      margin-bottom: 5px; /* Añade un margen inferior para separar los labels de los inputs */
+    }
+  
+    .formulario input,
+    .formulario textarea {
+      width: 100%; /* Asegúrate de que los inputs ocupen todo el ancho */
+      font-size: 14px; /* Ajusta el tamaño de la fuente para los inputs */
+    }
+  
+    .formulario input[type="submit"] {
+      padding: 10px 20px; /* Ajusta el padding para el botón de envío */
+      font-size: 16px; /* Ajusta el tamaño de la fuente para el botón de envío */
+    }
+  
+    .encabezado img {
+      width: 50px; /* Ajusta el tamaño del logo en el encabezado */
+      height: auto;
+    }
+  
+    .encabezado h1 {
+      font-size: 24px; /* Ajusta el tamaño de la fuente para el encabezado */
+    }
+  }
+  
+ 
