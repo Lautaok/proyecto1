@@ -27,6 +27,13 @@ header.encabezado {
   padding: 20px 0;
   text-align: center;
 }
+.display-2{
+  color: #4f297a;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
 
 .ir_arriba {
   background-color: rgba(131, 131, 131, 0.7);
@@ -45,11 +52,11 @@ a {
 }
 
 .menu {
-  background-color: #adadad46;
+  background-color: #727272ad;
   padding: 1em;
   text-align: center;
   list-style-type: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
   font-weight: bold;
   
 }
@@ -58,7 +65,6 @@ a {
   list-style-type: none;
   padding: 0;
 }
-
 
 
 .menu ul li {
@@ -95,9 +101,16 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+#seccion2 img {
+  width: 200%;
+  height: 400px; 
+  object-fit: cover; 
+ 
+}
+
 
 .pie {
-  background: #333;
+  background: #33333359;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -151,6 +164,11 @@ iframe {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
+  }
+  .dato{
+    background-color: #00000063;
+    color: #f5f5f5;
+    text-align: center;
   }
   
   .formulario label {
