@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("SupportPortalsCaseListQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="7389563754455833"}),null);
+__d("useOnBeforeUnloadComet",["CometRouterRouteMutableStateContext","FBLogger","react","removeFromArray","useDynamicCallbackDANGEROUS"],(function(a,b,c,d,e,f,g){"use strict";var h;b=h||d("react");var i=b.useContext,j=b.useEffect;function a(a){var b=i(c("CometRouterRouteMutableStateContext")),d=c("useDynamicCallbackDANGEROUS")(a);j(function(){if(b){b.unloadHooks==null&&(b.unloadHooks=[]);b.unloadHooks.push(d);return function(){b.unloadHooks!=null&&c("removeFromArray")(b.unloadHooks,d)}}else{c("FBLogger")("useOnBeforeUnload").blameToPreviousFrame().warn("Attempting to add onBeforeUnload hook with invalid context");return}},[d,b])}g["default"]=a}),98);

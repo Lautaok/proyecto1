@@ -17,11 +17,20 @@ body {
   font-weight: 400;
   font-style: normal;
   overflow: auto;
+
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 header.encabezado {
   background: #000000e5;
   color: #4f297a;
+  font-family: "Permanent Marker", cursive;
   font-weight: bold;
   font-style: italic;
   padding: 20px 0;
@@ -58,7 +67,7 @@ a {
   list-style-type: none;
   font-family:Verdana, Geneva, Tahoma, sans-serif ;
   font-weight: bold;
-  
+
 }
 
 .menu ul {
@@ -103,9 +112,18 @@ a {
 }
 #seccion2 img {
   width: 200%;
-  height: 400px; 
-  object-fit: cover; 
- 
+  height: 400px;
+  object-fit: cover;
+}
+.text-bg{
+  background-color: #5e3f812d;
+  text-align: center;
+  justify-content: center;
+}
+
+h3{
+  text-align: center;
+  background-color: #5e3f812d;
 }
 
 
@@ -135,18 +153,16 @@ iframe {
     justify-content: center;
     padding: 2em;
   }
-  
   .contacto h2 {
     text-align: center;
     margin-bottom: 1em;
-    
   }
 
   .bold-italic {
     font-weight: bold;
     font-style: italic;
   }
-  
+
   .formulario {
     width: 100%;
     max-width: 600px;
@@ -163,20 +179,20 @@ iframe {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+
   }
   .dato{
     background-color: #00000063;
     color: #f5f5f5;
     text-align: center;
   }
-  
+
   .formulario label {
     vertical-align: top;
     width: 100%;
     margin-bottom: 0.5em;
   }
-  
+
   .formulario input, .formulario textarea {
     background-color: #f9f9f9;
     padding: 0.4em 0.6em;
@@ -187,7 +203,7 @@ iframe {
     width: 100%;
     margin-bottom: 1em;
   }
-  
+
   .formulario input[type="submit"] {
     background-color: #f5f5f5;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
@@ -199,12 +215,12 @@ iframe {
     border: none;
     border-radius: 5px;
   }
-  
+
   .formulario textarea {
     height: 10em;
     resize: both;
   }
-  
+
   .formulario .acciones {
     text-align: center;
   }
@@ -217,55 +233,68 @@ iframe {
     margin: 0 auto;
     padding: 10px 0;
   }
+  .btn{
+    font-family: cursive;
+  }
+
+  .testimonio1{
+    background-color: #5e3f812d;
+    padding: 0;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+.testimonio2{
+  background-color: rgba(184, 184, 184, 0.315);
+  padding: 0;
+  margin-bottom: 0.4em;
+}
 
   @media (max-width: 420px) {
     body {
       background-color: rgba(78, 36, 114, 0.13);
-     
     }
-  
+
     .nav ul {
       flex-direction: column; /* Coloca los elementos del menú en una columna */
       align-items: center;
     }
-  
+
     .nav ul li {
       margin: 10px 0; /* Ajusta el margen para los elementos del menú */
     }
-  
+
     .nav ul li a {
       padding: 10px 20px; /* Ajusta el padding para los botones */
       font-size: 16px; /* Ajusta el tamaño de la fuente para los botones */
     }
-  
+
     .formulario-seccion {
       padding: 10px; /* Reduce el padding para la sección del formulario */
     }
-  
+
     .formulario label {
       width: 100%; /* Asegúrate de que los labels ocupen todo el ancho */
       margin-bottom: 5px; /* Añade un margen inferior para separar los labels de los inputs */
     }
-  
+
     .formulario input,
     .formulario textarea {
       width: 100%; /* Asegúrate de que los inputs ocupen todo el ancho */
       font-size: 14px; /* Ajusta el tamaño de la fuente para los inputs */
     }
-  
+
     .formulario input[type="submit"] {
       padding: 10px 20px; /* Ajusta el padding para el botón de envío */
       font-size: 16px; /* Ajusta el tamaño de la fuente para el botón de envío */
     }
-  
+
     .encabezado img {
       width: 50px; /* Ajusta el tamaño del logo en el encabezado */
       height: auto;
     }
-  
+
     .encabezado h1 {
       font-size: 24px; /* Ajusta el tamaño de la fuente para el encabezado */
     }
   }
-  
- 
+

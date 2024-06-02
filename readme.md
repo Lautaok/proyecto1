@@ -11,11 +11,17 @@ El proyecto se organiza de la siguiente manera:
 
 - contacto.html: Página de contacto con un formulario para que los usuarios puedan enviar sus consultas.
 
+- galeria.html:  Se agregó una sección de galería de imágenes con imágenes de entrenamientos personalizados y otras actividades relacionadas con el fitness.
+
+- video.html: Se incluyó una sección de video relacionada con el fitness para proporcionar contenido multimedia atractivo y variado.
+
 - css/estilo.css: Archivo de estilos CSS para la personalización del sitio.
 
 - css/bootstrap.min.css: Archivo de estilos Bootstrap para un diseño responsive y moderno.
 
 - js/bootstrap.min.js: Archivo JavaScript de Bootstrap para la funcionalidad interactiva.
+
+- Botones de Redes Sociales: Se agregaron botones para Instagram, Facebook y WhatsApp con enlaces correspondientes para facilitar la interacción del usuario con las redes sociales.
 
 - img/: Carpeta que contiene las imágenes utilizadas en la galería.
 
